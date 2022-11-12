@@ -1,0 +1,16 @@
+void lexical_analysis(){
+    float a=2.1;
+    int b;
+    a=1.1;
+    b=2;
+    while(b<100){
+        b=b+1;
+        a=a+3;
+    };
+    if(a>5) {
+        b=b-1;
+    }
+    else {
+        b=b+1;
+    }
+}
